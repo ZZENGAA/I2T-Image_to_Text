@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#108CCC"
+    tools:context=".MainActivity2">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="395dp"
+        android:layout_height="713dp"
+        app:cardBackgroundColor="#044578"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="70dp"
+            android:background="#044578"
+            android:fontFamily="@font/montserrat_semibold"
+            android:hint="EXTRACTED TEXT WILL SHOW HERE"
+            android:inputType="textMultiLine|textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#CDFFFFFF"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="36dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/image__2_" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="480dp"
+            app:srcCompat="@drawable/__removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="560dp"
+            app:srcCompat="@drawable/_1removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="640dp"
+            android:onClick="openChrome"
+            app:srcCompat="@drawable/_2removebg_preview" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
